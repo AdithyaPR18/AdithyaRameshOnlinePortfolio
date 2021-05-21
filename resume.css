@@ -4,6 +4,10 @@ body{
 
     margin:0; padding:0; 
 }
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
 
 .topnav h1 {
   float: left;
@@ -214,7 +218,10 @@ body{
 .topnav a.active {
   background-color: #4eb0c8;
   color: white;
+text-decoration-line: underline;
 }
+
+
 
 
 .topnav .icon {
@@ -258,7 +265,7 @@ body::-webkit-scrollbar-track {
 }
 
 body::-webkit-scrollbar-thumb {
-  background: #d38943;
+  background: #4eb0c8;;
 }
 
 
@@ -316,6 +323,12 @@ background-attachment: fixed;
 	font-family: poppins;
 	text-transform: uppercase;
 	color: rgb(255,255, 255);
+  }
+  .topnav h1 {
+font-size: 20px;
+
+
+  }
 
 }
 }
@@ -391,4 +404,5 @@ img {
 }
 .pdf {
 overflow-y: hidden;
+height: 80vh;
 }

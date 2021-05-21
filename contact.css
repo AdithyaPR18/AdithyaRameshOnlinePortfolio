@@ -314,26 +314,23 @@ background-attachment: fixed;
 	color: rgb(255,255, 255);
 
 }
-
-
 }
 
 @media only screen and (max-width: 675px) {
   .banner-area h1 {
 	padding-top: 4%;
   margin-top: 90px;
-	font-size: 40px;
+	font-size: 45px;
 	font-family: poppins;
 	text-transform: uppercase;
 	color: rgb(255,255, 255);
-  }
-  .topnav h1 {
 
+}
+.topnav h1 {
 font-size: 20px;
 
-}
 
-}
+  }
 }
 
 .title-of-content-area {
@@ -415,5 +412,5 @@ img {
 .contact-text
 {
 
-  width: 98vw;
+  width: 100%;
 }
