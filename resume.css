@@ -8,7 +8,12 @@ html, body {
     max-width: 100%;
     overflow-x: hidden;
 }
+a {
+  font-size:24px
+  color: black
 
+  
+}
 .topnav h1 {
   float: left;
   display: block;
@@ -363,7 +368,7 @@ font-size: 20px;
   width: 100%;
   text-align: justify;
   color: rgb(0, 0, 0);
-  height: 100vh;
+
 }
 
 .content-area-text {
